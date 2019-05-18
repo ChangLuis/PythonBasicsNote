@@ -6,3 +6,4 @@ ___
 * print_formated
 * string
 * list
+* dictionary
