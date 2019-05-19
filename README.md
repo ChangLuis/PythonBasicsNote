@@ -7,3 +7,4 @@ ___
 * string
 * list
 * dictionary
+* tuple
