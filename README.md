@@ -8,3 +8,4 @@ ___
 * list
 * dictionary
 * tuple
+* set
