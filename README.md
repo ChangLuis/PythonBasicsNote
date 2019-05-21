@@ -9,3 +9,4 @@ ___
 * dictionary
 * tuple
 * set
+* boolean
