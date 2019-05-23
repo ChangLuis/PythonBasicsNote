@@ -26,5 +26,17 @@ type(boolean2)
 3 <= 5
 # ans: True
 
+"real" == "read"
+# ans: False 
+
+"Bye" == "bye"
+# ans: Flase
+
+"9" == 9
+# ans: False  不同的type，也是false
+
+18.0 == 18
+# ans: True   python不管float還是int，只要值一樣，就是True
+
 # python只有 >,<,==,!=,>=,<=  沒有像其他還有甚麼三個符號的情況
 
