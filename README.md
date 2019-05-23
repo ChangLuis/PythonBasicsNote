@@ -10,3 +10,5 @@ ___
 * tuple
 * set
 * boolean
+* chaining comparion
+* if else statement
