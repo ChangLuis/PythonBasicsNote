@@ -13,3 +13,4 @@ ___
 * chaining comparion
 * if else statement
 * for loop
+* while loop and three state indication
