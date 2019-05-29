@@ -14,3 +14,4 @@ ___
 * if else statement
 * for loop
 * while loop and three state indication
+* useful operator
