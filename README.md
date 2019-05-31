@@ -16,3 +16,4 @@ ___
 * while loop and three state indication
 * useful operator
 * list_comprehension
+* function
