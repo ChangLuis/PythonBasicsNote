@@ -17,3 +17,4 @@ ___
 * useful operator
 * list_comprehension
 * function
+* args and kwargs
