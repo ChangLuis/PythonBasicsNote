@@ -18,3 +18,4 @@ ___
 * list_comprehension
 * function
 * args and kwargs
+* lambda map filter
