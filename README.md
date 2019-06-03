@@ -19,3 +19,4 @@ ___
 * function
 * args and kwargs
 * lambda map filter
+* class
