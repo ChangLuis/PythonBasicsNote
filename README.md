@@ -21,3 +21,4 @@ ___
 * lambda map filter
 * class
 * object oriented programming
+* errors_excetpiton
