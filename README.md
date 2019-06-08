@@ -1,7 +1,7 @@
 # Python note
 ___
 
-* variable_assignments
+* [variable_assignments](variable_assignments.py)
 * numbers
 * print_formated
 * string
