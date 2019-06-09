@@ -1,4 +1,5 @@
-#class 你可以視class為一堆要處理類似問題的function結合體
+# class 你可以視class為一堆要處理類似問題的function結合體
+
 
 class Sample():
     pass
@@ -14,11 +15,13 @@ mysample = Sample()
 print(mysample)
 # 通常要用class，都要先實體化，也就是用一個變數代表，要不然無法重複使用
 
+
 class Animal1():
-    def __init__(self,breed):
+    def __init__(self, breed):
         self.breed = breed
 # class，基本上是一堆function的集合體，那一開始通常也是要代入參數，
-# python的class，特別定義了一個__init__ function，讓你可以定義這些參數，也方便你可以重複使用這些參數帶入不同的子funciton裡面
+# python的class，特別定義了一個__init__ function，
+# 讓你可以定義這些參數，也方便你可以重複使用這些參數帶入不同的子funciton裡面
 # 但要注意，class裡面的所有funciton，()內，最初的位置，都要打self，代表這是內部的func，
 # self.xxx，就是內部其他的子func，呼叫參數的方式，
 # self.breed = breed，等號後面的breed，當然是代表參數breed
@@ -33,37 +36,44 @@ print(myanimal.breed)
 # 如果你說，我要呼叫這個breed的內容啊!?，如果你這樣想就不太行，
 # 我們是用self.breed當作變數，refer to breed這個參數，並不是呼叫!!
 
+
 class Animal2:
     species = "mammal"
-    def __init__(self,breed,name):
+
+    def __init__(self, breed, name):
         self.breed = breed
         self.name = name
 
-myanimal = Animal2("lab","jojo")
+myanimal = Animal2("lab", "jojo")
 print(myanimal.species)
 # 我們也可以直接在class裡面弄一個變數，在外部refer
 # 其實不用把class想得太複雜，class基本上就是一個容器而已
 
+
 class Animal3:
-    def __init__(self,breed,name,age):
+    def __init__(self, breed, name, age):
         self.breed = breed
         self.name = name
         self.age = age
-    
-    def check(self):
-         return f"This is class of animal3 and the breed is {self.breed},the name is {self.name} and the age is {self.age} "
 
-myanimal = Animal3("lab","jojo","18")
+    def check(self):
+        return f"This is class of animal3 and the breed is {self.breed},\
+                the name is {self.name} and the age is {self.age} "
+
+myanimal = Animal3("lab", "jojo", "18")
 print(myanimal.check())
 
+
 class Animal4:
-    def __init__(self,breed,name):
+    def __init__(self, breed, name):
         self.breed = breed
         self.name = name
-    def check(self,age):
-        return f"This is class of animal3 and the breed is {self.breed},the name is {self.name} and the age is {age} "
 
-myanimal = Animal4("lab","jojo")
+    def check(self, age):
+        return f"This is class of animal3 and the breed is {self.breed},\
+        the name is {self.name} and the age is {age} "
+
+myanimal = Animal4("lab", "jojo")
 print(myanimal.check(18))
 # 如果某一個參數只會使用在某一個func裡面，你可以只在這個func定義需要這個參數，然後呼叫這個func時，再打入參數
 # 就跟一般的function一個樣

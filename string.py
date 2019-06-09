@@ -1,4 +1,4 @@
-#python紀錄字串，可以利用index叫出內容
+# python紀錄字串，可以利用index叫出內容
 
 string1 = "Hello"
 # 可以用雙引號
@@ -14,11 +14,11 @@ print("Hello \n World!")
 
 num1 = 123
 str_num1 = str(num1)
-# str() 更改型態成string的方式 
+# str() 更改型態成string的方式
 
 len_str_num1 = len(str_num1)
 print(len_str_num1)
-# output: 3   len()function可以查詢類list(string)或list(array)的長度  
+# output: 3   len()function可以查詢類list(string)或list(array)的長度
 
 string4 = "Jack is a painter."
 # 可以利用array模式呼叫string個別index上的內容，或某範圍index內容
@@ -34,8 +34,8 @@ print(string4[-1])
 # ouput: .   最後一個的index，一定是-1,是不是很方便，不用先找出長度!!
 
 print(string4[0:3])
-# output: Jac 
-# 要記住一件事，範圍的尾巴，預設是不輸出的，如果你想要輸出尾巴的內容呢?
+# output: Jac
+# # 要記住一件事，範圍的尾巴，預設是不輸出的，如果你想要輸出尾巴的內容呢?
 
 print(string4[5:])
 # output: is a painter.  尾巴不要設位置就行了，他就會預設全部輸出
@@ -78,9 +78,3 @@ string7 = string5.split("o")
 print(string7)
 # string7: ['i kn', 'w that the ', 'nes wh', ' l', 've us, will miss us.']
 # 參數輸入"o"，以o做分隔
-
-
-
-
-
-

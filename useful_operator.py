@@ -1,12 +1,12 @@
-#常會用到的operator
+# 常會用到的operator
 
 for i in range(10):
     print(i)
 # 這在之前有介紹過，range() func，可以直接指定範圍做迴圈，也可以指定起始位置與間隔跳行
 
 
-array1 = ["a","b","c","d","e"]
-for idx,char in enumerate(array1):
+array1 = ["a", "b", "c", "d", "e"]
+for idx, char in enumerate(array1):
     print(idx)
     print(char)
 # enumerate() func 可以一邊迴圈出index的值，也可以迴圈出index的位置，非常方便，
@@ -15,22 +15,22 @@ for idx,char in enumerate(array1):
 
 for charator in enumerate(array1):
     print(charator)
-#當然，你可以只用一個變數，但這個變數就會自動含有index與值，輸出會發現，以tuple方式呈現
+# 當然，你可以只用一個變數，但這個變數就會自動含有index與值，輸出會發現，以tuple方式呈現
 
 
-array2 = ["first","second","third","forth","fifth"]
-for match in zip(array1,array2):
+array2 = ["first", "second", "third", "forth", "fifth"]
+for match in zip(array1, array2):
     print(match)
 # zip() func 可以直接合併list的內容，依照index位置，並不限兩個，你可以好幾個，不同長度的list，以最短list長度為基準合併
 
 
-for char1,char2 in zip(array1,array2):
+for char1, char2 in zip(array1, array2):
     print(char1)
     print(char2)
 # 你也可以像這樣，分開輸出，通常會用這種方法，去做for迴圈，執行內容的邏輯或修改!!
 
 
-array3 = list(zip(array1,array2))
+array3 = list(zip(array1, array2))
 print(array3)
 
 
@@ -47,7 +47,7 @@ max(array1)
 
 
 from random import shuffle
-mylist = [1,2,3,4,5,6,7,8,9,10]
+mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(mylist)
 shuffle(mylist)
 print(mylist)
@@ -55,7 +55,7 @@ print(mylist)
 
 
 from random import randint
-print(randint(0,10))
+print(randint(0, 10))
 # randint() func 可以在你指定的範圍內，隨機叫出一個數字
 
 
@@ -72,4 +72,3 @@ type(str_num)
 
 int(str_num)
 # ans: 500   將string型態的"500"，轉成integer的500
-

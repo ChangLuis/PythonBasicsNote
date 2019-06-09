@@ -1,9 +1,9 @@
-#list與string用同樣邏輯index儲存，只不過list可以直接對內容物做改變
+# list與string用同樣邏輯index儲存，只不過list可以直接對內容物做改變
 
-list1 = [1,2,3]
-list1 = ["1","2","3"]
-list1 = ["1",2,"神功護體"]
-list1 = [1,[2,3]]
+list1 = [1, 2, 3]
+list1 = ["1", "2", "3"]
+list1 = ["1", 2, "神功護體"]
+list1 = [1, [2, 3]]
 print(list1)
 # list內容,可以是任何object,並且可以混用
 
@@ -17,8 +17,8 @@ list1[1] = "掃地神僧"
 print(list1)
 # 不同於string，list可以直接指定內容作改變
 
-list2 = ["html","css","javascript","node.js"]
-list3 = ["python","flask","django"]
+list2 = ["html", "css", "javascript", "node.js"]
+list3 = ["python", "flask", "django"]
 list4 = list2 + list3
 print(list4)
 # 一樣支持串接concatenation
@@ -44,16 +44,16 @@ print(list5)
 list5.append("風清揚")
 list5.append("獨孤九劍")
 mr_wind = list5.pop(0)
-print(mr_wind,list5)
+print(mr_wind, list5)
 # 被pop的value可以賦予變數定義，這在資料結構的某些實踐，很好用
 # "風清揚"依然被移除於list5
 
-list6 = [7,5,3,1,75,69,56,23,73]
-list7 = ["z","c","l","a","e"]
-list8 = ["b","z","A","i","E"]
-list6.sort(),list7.sort(),list8.sort()
+list6 = [7, 5, 3, 1, 75, 69, 56, 23, 73]
+list7 = ["z", "c", "l", "a", "e"]
+list8 = ["b", "z", "A", "i", "E"]
+list6.sort(), list7.sort(), list8.sort()
 
-print(list6),print(list7),print(list8)
+print(list6), print(list7), print(list8)
 # .sort()排序內容，不管是數字或英文字母，英文字母，優先排列大寫，再排小寫
 # 排列順序，預設是以小到大
 # python可以在一排做指令
@@ -72,19 +72,7 @@ list7.reverse()
 print(list7)
 # .reverse()反轉內容
 
-list6.sort(reverse = True)
-list10 = sorted(list8,reverse = True)
-print(list6,list10)
+list6.sort(reverse=True)
+list10 = sorted(list8, reverse=True)
+print(list6, list10)
 # .sort()與sorted()，也有內建參數可以直接反轉
-
-
-
-
-
-
-
-
-
-
-
-

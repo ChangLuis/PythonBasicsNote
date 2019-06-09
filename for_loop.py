@@ -1,9 +1,10 @@
-#for loop 迴圈的使用，基本上與其它的程式差不多，差別在於，python內建的for迴圈，已經非常的簡潔
+# for loop 迴圈的使用，基本上與其它的程式差不多，差別在於，python內建的for迴圈，已經非常的簡潔
 
-array = [0,1,2,3,4,5,6,7,8]
+array = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 for num in array:
     print(num)
-# num 代表每一個array的index值，從index 0開始，當完成內部的code之後，自動疊加1位，也就是index 1的內容，然後又做一輪內部的code，
+# num 代表每一個array的index值，從index 0開始，
+# 當完成內部的code之後，自動疊加1位，也就是index 1的內容，然後又做一輪內部的code，
 # in array，代表，所有在array的數值，
 # 所以從頭到尾解釋一遍，就是，輪遍在array這個list裡面的所有index的值，每個值以num代表
 
@@ -28,5 +29,3 @@ print(number)
 sum_number = sum(range(10))
 print(sum_number)
 # 你可以利用sum()這個func，直接做上面的行為
-
-

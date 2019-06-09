@@ -1,4 +1,6 @@
-#function，函式的使用，為什麼需要function?，只要會重複運用的程式，你可以把他們包成function，重複使用，這樣就不用一直重複打一樣的程式碼
+# function，函式的使用，為什麼需要function?，
+# 只要會重複運用的程式，你可以把他們包成function，重複使用，這樣就不用一直重複打一樣的程式碼
+
 
 def hello_func():
     print("Hello!")
@@ -10,7 +12,8 @@ hello_func()
 hello_func
 # 像這樣沒有寫小括號，python只會知道，這裡有一個func，但不會做任何操作
 
-def name_hello(name = "Luis"):
+
+def name_hello(name="Luis"):
     """
     This is a simple description.
     """
@@ -22,4 +25,4 @@ def name_hello(name = "Luis"):
 name_hello()
 name_hello("jack")
 help(name_hello)
-#可以利用help() func 來看看你自己寫的描述，不過windows系統，有些時候可能會出現一些問題
+# 可以利用help() func 來看看你自己寫的描述，不過windows系統，有些時候可能會出現一些問題

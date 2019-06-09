@@ -1,4 +1,4 @@
-#布林值
+# 布林值
 
 boolean1 = True
 boolean2 = False
@@ -11,7 +11,7 @@ type(boolean2)
 1 > 2
 # ans: False
 
-2 == 2 
+2 == 2
 # ans: True
 
 3 < 2
@@ -27,7 +27,7 @@ type(boolean2)
 # ans: True
 
 "real" == "read"
-# ans: False 
+# ans: False
 
 "Bye" == "bye"
 # ans: Flase
@@ -39,4 +39,3 @@ type(boolean2)
 # ans: True   python不管float還是int，只要值一樣，就是True
 
 # python只有 >,<,==,!=,>=,<=  沒有像其他還有甚麼三個符號的情況
-
