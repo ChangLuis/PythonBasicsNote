@@ -2,23 +2,23 @@
 ___
 
 * [variable_assignments](variable_assignments.py)
-* numbers
-* print_formated
-* string
-* list
-* dictionary
-* tuple
-* set
-* boolean
-* chaining comparion
-* if else statement
-* for loop
-* while loop and three state indication
-* useful operator
-* list_comprehension
-* function
-* args and kwargs
-* lambda map filter
-* class
-* object oriented programming
-* errors_excetpiton
+* [numbers](numbers.py)
+* [print_formated](print_formated.py)
+* [string](string.py)
+* [list](list.py)
+* [dictionary](dictionary.py)
+* [tuple](tuple.py)
+* [set](set.py)
+* [boolean](boolean.py)
+* [chaining comparison](chaining_comparison.py)
+* [if else statement](if_else_statement.py)
+* [for loop](for_loop.py)
+* [while loop and three state indication](while.py)
+* [useful operator](useful_operator.py)
+* [list_comprehension](list_comprehension.py)
+* [function](function.py)
+* [args and kwargs](args_kwargs.py)
+* [lambda map filter](lambda_map_filter.py)
+* [class](class.py)
+* [object oriented programming](object_oriented.py)
+* [errors_excetpiton](errors_exception.py)
