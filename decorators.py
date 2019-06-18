@@ -47,3 +47,24 @@ def show_message():
     print("Wow! It's impressive.")
 
 show_message
+# 這邊為什麼沒有括號？，居然可以成功呼叫內容？
+# 其實是因為我在new_func裡面，直接return inside_func()，直接定義好一定要呼叫導致的
+# 如果一開始return時，你沒有括號，那下面這個呼叫就需要加括號，可以自己選擇
+
+
+def new_func_with_pars(parser_func):
+    def inner_func(give):
+        print("This is inner part.")
+        parser_func(give)
+    return inner_func
+
+
+@new_func_with_pars
+def inside_func(age):
+    print(f'I am {age} years old.')
+
+inside_func(29)
+# 如果你要decorate的函式有包含參數，你就要特別注意，上面的new_func_with_pars，
+# 裡面的return，你就不能加括號，因為括號內必須傳參數，你在這邊如果直接打return inner_func(give)
+# 外部的new_func_with_pars他不認得give這個東西是什麼，這個give是內部inner_func定義的
+# 因此外部func能做的就是回傳指向內部func
