@@ -22,3 +22,4 @@ ___
 * [class](class.py)
 * [object oriented programming](object_oriented.py)
 * [errors_excetpiton](errors_exception.py)
+* [decorators](decorators.py)
