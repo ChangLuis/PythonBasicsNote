@@ -24,3 +24,4 @@ ___
 * [errors_excetpiton](errors_exception.py)
 * [decorators](decorators.py)
 * [generator](generator.py)
+* [collections_module](collections_module.py)
